@@ -1,0 +1,189 @@
+{
+  "sebum_production": {
+    "name": "Sebum Production",
+    "description": "Measurement of oil production from sebaceous glands",
+    "importance": "Key indicator for acne development and treatment planning",
+    "measurement_methods": ["Sebumeter", "Visual assessment", "Blotting paper test"],
+    "interpretations": {
+      "low": "Dry skin, potential barrier issues, may need more emollients",
+      "normal": "Balanced sebum production, healthy skin function",
+      "high": "Oily skin, increased acne risk, requires sebum-regulating ingredients",
+      "very_high": "Significant acne risk, may indicate hormonal factors, needs medical evaluation"
+    },
+    "related_conditions": ["acne", "seborrheic_dermatitis", "rosacea"],
+    "treatment_implications": {
+      "high": [
+        "Use salicylic acid or niacinamide",
+        "Avoid heavy oils",
+        "Consider hormonal evaluation",
+        "Use oil-free, non-comedogenic products"
+      ]
+    },
+    "normal_range": "Mid-range on sebumeter (varies by device)"
+  },
+  "inflammation_markers": {
+    "name": "Inflammation Markers",
+    "description": "Indicators of inflammatory processes in the skin",
+    "importance": "Determines severity of inflammatory acne and treatment approach",
+    "measurement_methods": ["Clinical assessment", "Redness analysis", "Blood tests (systemic)"],
+    "interpretations": {
+      "normal": "No significant inflammation, healthy skin response",
+      "mild": "Minor inflammation, may respond to topical anti-inflammatories",
+      "moderate": "Significant inflammation, requires anti-inflammatory treatment",
+      "elevated": "Severe inflammation, may need prescription treatment or oral medications",
+      "severe": "Systemic inflammation, requires medical intervention"
+    },
+    "related_conditions": ["inflammatory_acne", "rosacea", "eczema"],
+    "treatment_implications": {
+      "elevated": [
+        "Use niacinamide for anti-inflammatory effects",
+        "Consider azelaic acid",
+        "Avoid irritating ingredients",
+        "May need oral anti-inflammatories",
+        "Prioritize barrier repair"
+      ]
+    }
+  },
+  "skin_ph": {
+    "name": "Skin pH Level",
+    "description": "Measurement of skin's acidity/alkalinity",
+    "importance": "Indicates skin barrier health and bacterial balance",
+    "measurement_methods": ["pH meter", "pH strips"],
+    "normal_range": "4.5 - 5.5 (slightly acidic)",
+    "interpretations": {
+      "acidic": "pH < 4.5 - May indicate irritation or over-exfoliation",
+      "optimal": "pH 4.5-5.5 - Healthy acid mantle, good barrier function",
+      "alkaline": "pH > 5.5 - Compromised barrier, bacterial overgrowth risk, acne-prone"
+    },
+    "related_conditions": ["acne", "eczema", "sensitive_skin"],
+    "treatment_implications": {
+      "alkaline": [
+        "Restore acid mantle with pH-balanced products",
+        "Use gentle, low-pH cleansers",
+        "Avoid harsh soaps",
+        "Consider pH-adjusting toners",
+        "Support barrier with ceramides"
+      ]
+    }
+  },
+  "hydration_level": {
+    "name": "Skin Hydration Level",
+    "description": "Measurement of water content in the stratum corneum",
+    "importance": "Affects skin barrier function and overall skin health",
+    "measurement_methods": ["Corneometer", "Visual/tactile assessment"],
+    "interpretations": {
+      "very_low": "Severely dehydrated, compromised barrier, increased sensitivity",
+      "low": "Dehydrated skin, needs humectants and occlusives",
+      "normal": "Well-hydrated skin, healthy barrier function",
+      "optimal": "Excellent hydration, strong barrier"
+    },
+    "related_conditions": ["dehydrated_skin", "sensitive_skin", "acne"],
+    "treatment_implications": {
+      "low": [
+        "Use hyaluronic acid",
+        "Layer hydrating products",
+        "Use occlusive moisturizers",
+        "Avoid over-cleansing",
+        "Humidify environment"
+      ]
+    },
+    "note": "Dehydration can occur even in oily skin and may worsen acne"
+  },
+  "microbiome_balance": {
+    "name": "Skin Microbiome Balance",
+    "description": "Assessment of beneficial vs harmful bacteria on skin",
+    "importance": "Critical for acne development and treatment response",
+    "measurement_methods": ["Microbiome sequencing", "Clinical assessment", "C. acnes detection"],
+    "interpretations": {
+      "balanced": "Healthy diversity of beneficial bacteria, low pathogen levels",
+      "imbalanced": "Dysbiosis present, may contribute to acne or inflammation",
+      "dysbiotic": "Significant imbalance, pathogenic bacteria overgrowth",
+      "c_acnes_overgrowth": "Excess C. acnes bacteria, acne development likely"
+    },
+    "related_conditions": ["acne", "rosacea", "seborrheic_dermatitis"],
+    "treatment_implications": {
+      "imbalanced": [
+        "Consider prebiotic/probiotic skincare",
+        "Use antimicrobial ingredients (benzoyl peroxide, tea tree oil)",
+        "Support barrier function",
+        "Avoid harsh antibacterial products that kill all bacteria",
+        "May need prescription antibiotics for severe cases"
+      ]
+    }
+  },
+  "barrier_function": {
+    "name": "Skin Barrier Function",
+    "description": "Assessment of skin's protective barrier integrity",
+    "importance": "Determines skin's ability to retain moisture and protect against irritants",
+    "measurement_methods": ["TEWL (trans-epidermal water loss)", "Clinical assessment"],
+    "interpretations": {
+      "excellent": "Strong barrier, minimal TEWL, good protection",
+      "good": "Functional barrier with minor weaknesses",
+      "compromised": "Weakened barrier, increased TEWL, sensitivity",
+      "severely_compromised": "Significant barrier dysfunction, high sensitivity, inflammation"
+    },
+    "related_conditions": ["sensitive_skin", "eczema", "acne", "rosacea"],
+    "treatment_implications": {
+      "compromised": [
+        "Prioritize barrier repair with ceramides",
+        "Use gentle, minimal ingredients",
+        "Avoid irritants and harsh actives temporarily",
+        "Layer hydrating and occlusive products",
+        "Simplify routine until repaired"
+      ]
+    }
+  },
+  "oxidative_stress": {
+    "name": "Oxidative Stress Markers",
+    "description": "Indicators of free radical damage and antioxidant status",
+    "importance": "Affects aging, inflammation, and skin health",
+    "measurement_methods": ["Clinical assessment", "Blood tests", "Skin analysis"],
+    "interpretations": {
+      "low": "Healthy antioxidant status, minimal free radical damage",
+      "moderate": "Some oxidative stress, may benefit from antioxidants",
+      "high": "Significant oxidative stress, accelerated aging, inflammation risk",
+      "severe": "Excessive oxidative damage, requires comprehensive intervention"
+    },
+    "related_conditions": ["aging", "inflammation", "acne", "hyperpigmentation"],
+    "treatment_implications": {
+      "high": [
+        "Use antioxidants (vitamin C, vitamin E, resveratrol)",
+        "Strict sun protection",
+        "Consider dietary antioxidants",
+        "Reduce environmental stressors",
+        "Use anti-pollution skincare"
+      ]
+    }
+  },
+  "hormone_indicators": {
+    "name": "Hormonal Indicators",
+    "description": "Markers of hormonal influence on skin (indirect assessment)",
+    "importance": "Critical for identifying hormonal acne and treatment planning",
+    "measurement_methods": ["Clinical pattern recognition", "Blood tests", "Medical history"],
+    "signs": {
+      "androgen_excess": [
+        "Jawline and chin acne",
+        "Oily skin",
+        "Adult-onset acne",
+        "Persistent acne",
+        "Cyclical breakouts"
+      ],
+      "estrogen_fluctuation": [
+        "Cyclical acne related to menstrual cycle",
+        "Perimenopause skin changes",
+        "Post-pregnancy acne"
+      ]
+    },
+    "related_conditions": ["hormonal_acne", "PCOS", "perimenopause"],
+    "treatment_implications": {
+      "suspected_hormonal": [
+        "Medical evaluation recommended",
+        "May benefit from hormonal treatments (birth control, spironolactone)",
+        "Use hormone-balancing ingredients (niacinamide)",
+        "Consider dietary changes (reduce dairy, manage blood sugar)",
+        "Stress management",
+        "Topicals alone may be insufficient"
+      ]
+    }
+  }
+}

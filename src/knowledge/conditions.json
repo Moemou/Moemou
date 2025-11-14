@@ -1,0 +1,165 @@
+{
+  "acne": {
+    "name": "Acne Vulgaris",
+    "description": "A chronic inflammatory skin condition affecting the pilosebaceous unit, characterized by comedones, papules, pustules, and potentially nodules or cysts.",
+    "types": {
+      "comedonal": {
+        "description": "Primarily blackheads and whiteheads without inflammation",
+        "severity": "mild",
+        "characteristics": ["non-inflammatory", "blocked pores", "excess sebum"]
+      },
+      "inflammatory": {
+        "description": "Red, inflamed papules and pustules",
+        "severity": "moderate",
+        "characteristics": ["inflammation", "redness", "bacterial involvement"]
+      },
+      "cystic": {
+        "description": "Deep, painful cysts and nodules under the skin",
+        "severity": "severe",
+        "characteristics": ["deep inflammation", "scarring risk", "painful", "hormonal factors"]
+      },
+      "hormonal": {
+        "description": "Acne triggered by hormonal fluctuations",
+        "severity": "mild to moderate",
+        "characteristics": ["jawline and chin distribution", "cyclical pattern", "hormonal imbalance"]
+      }
+    },
+    "root_causes": [
+      "Excess sebum production",
+      "Hyperkeratinization of follicles",
+      "C. acnes bacterial overgrowth",
+      "Inflammation",
+      "Hormonal imbalances (androgens)",
+      "Genetic predisposition",
+      "Diet (high glycemic index, dairy)",
+      "Stress",
+      "Compromised skin barrier"
+    ],
+    "biomarker_indicators": {
+      "high_sebum": "Indicates overactive sebaceous glands",
+      "elevated_inflammation": "Suggests inflammatory acne type",
+      "imbalanced_microbiome": "May indicate bacterial dysbiosis",
+      "alkaline_ph": "Compromised skin barrier and bacterial overgrowth",
+      "hormonal_markers": "Suggests hormonal acne"
+    },
+    "recommended_ingredients": [
+      "salicylic_acid",
+      "benzoyl_peroxide",
+      "retinoids",
+      "niacinamide",
+      "azelaic_acid",
+      "tea_tree_oil",
+      "sulfur",
+      "alpha_hydroxy_acids"
+    ],
+    "lifestyle_factors": [
+      "Reduce high-glycemic foods",
+      "Consider dairy reduction",
+      "Manage stress levels",
+      "Get adequate sleep",
+      "Avoid touching face",
+      "Clean phone and pillowcases regularly",
+      "Stay hydrated"
+    ],
+    "treatments": [
+      {
+        "severity": "mild",
+        "approaches": ["topical retinoids", "salicylic acid", "benzoyl peroxide", "proper cleansing"],
+        "timeline": "4-8 weeks for improvement"
+      },
+      {
+        "severity": "moderate",
+        "approaches": ["combination topicals", "niacinamide", "azelaic acid", "possible oral supplements"],
+        "timeline": "8-12 weeks for improvement"
+      },
+      {
+        "severity": "severe",
+        "approaches": ["professional dermatologist consultation", "possible prescription medications", "hormonal treatments"],
+        "timeline": "12-16+ weeks, requires medical supervision"
+      }
+    ],
+    "red_flags": [
+      "Sudden severe cystic acne",
+      "Acne with fever or systemic symptoms",
+      "Acne not responding to treatment after 12 weeks",
+      "Severe scarring",
+      "Acne in unusual locations",
+      "Associated with other symptoms (hirsutism, irregular periods)"
+    ]
+  },
+  "rosacea": {
+    "name": "Rosacea",
+    "description": "A chronic inflammatory skin condition causing facial redness, visible blood vessels, and sometimes acne-like breakouts.",
+    "types": {
+      "erythematotelangiectatic": "Persistent redness and visible blood vessels",
+      "papulopustular": "Acne-like breakouts with redness",
+      "phymatous": "Thickened skin, typically on nose",
+      "ocular": "Affects eyes, causing dryness and irritation"
+    },
+    "triggers": [
+      "Sun exposure",
+      "Hot beverages",
+      "Spicy foods",
+      "Alcohol",
+      "Stress",
+      "Extreme temperatures",
+      "Harsh skincare products"
+    ],
+    "recommended_ingredients": [
+      "azelaic_acid",
+      "niacinamide",
+      "green_tea_extract",
+      "centella_asiatica",
+      "ceramides"
+    ]
+  },
+  "hyperpigmentation": {
+    "name": "Hyperpigmentation",
+    "description": "Darkened patches of skin caused by excess melanin production.",
+    "types": {
+      "post_inflammatory": "Dark spots after acne or injury",
+      "melasma": "Hormonal dark patches, typically on face",
+      "sun_spots": "Age spots from UV exposure"
+    },
+    "recommended_ingredients": [
+      "vitamin_c",
+      "niacinamide",
+      "kojic_acid",
+      "alpha_arbutin",
+      "tranexamic_acid",
+      "retinoids",
+      "licorice_extract"
+    ],
+    "prevention": [
+      "Daily SPF 30+ sunscreen",
+      "Avoid picking at acne",
+      "Use antioxidants",
+      "Consistent skincare routine"
+    ]
+  },
+  "sensitive_skin": {
+    "name": "Sensitive Skin",
+    "description": "Skin that reacts easily to products or environmental factors.",
+    "characteristics": [
+      "Redness",
+      "Itching",
+      "Burning sensation",
+      "Dryness",
+      "Compromised barrier"
+    ],
+    "recommended_ingredients": [
+      "ceramides",
+      "centella_asiatica",
+      "colloidal_oatmeal",
+      "niacinamide",
+      "hyaluronic_acid"
+    ],
+    "avoid": [
+      "Fragrance",
+      "Essential oils",
+      "High concentrations of acids",
+      "Alcohol denat",
+      "Harsh surfactants"
+    ]
+  }
+}

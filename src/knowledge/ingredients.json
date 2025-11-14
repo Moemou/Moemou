@@ -1,0 +1,212 @@
+{
+  "salicylic_acid": {
+    "name": "Salicylic Acid",
+    "category": "Beta Hydroxy Acid (BHA)",
+    "description": "Oil-soluble exfoliant that penetrates pores to dissolve sebum and dead skin cells.",
+    "benefits": [
+      "Unclogs pores",
+      "Reduces blackheads and whiteheads",
+      "Anti-inflammatory properties",
+      "Helps prevent acne"
+    ],
+    "addresses": ["acne", "blackheads", "oily skin", "enlarged pores"],
+    "concentration_range": "0.5% - 2%",
+    "suitable_for": ["oily", "combination", "acne-prone"],
+    "cautions": ["May be drying", "Start with lower concentrations", "Use sunscreen"],
+    "contraindications": ["Aspirin allergy", "Very sensitive skin"],
+    "synergistic_with": ["niacinamide", "hyaluronic_acid", "ceramides"],
+    "avoid_with": ["retinoids (at same time)", "vitamin_c (at same time)", "benzoyl_peroxide"],
+    "application": "PM, 2-3 times per week initially, can increase frequency",
+    "ph_dependent": true,
+    "optimal_ph": "3.0-4.0"
+  },
+  "niacinamide": {
+    "name": "Niacinamide (Vitamin B3)",
+    "category": "Vitamin",
+    "description": "Multi-functional ingredient that regulates sebum, reduces inflammation, and strengthens skin barrier.",
+    "benefits": [
+      "Reduces sebum production",
+      "Minimizes pore appearance",
+      "Fades dark spots",
+      "Strengthens skin barrier",
+      "Anti-inflammatory",
+      "Reduces redness"
+    ],
+    "addresses": ["acne", "hyperpigmentation", "rosacea", "sensitive skin", "oily skin"],
+    "concentration_range": "2% - 10%",
+    "suitable_for": ["all skin types"],
+    "cautions": ["High concentrations may cause flushing in sensitive skin"],
+    "contraindications": [],
+    "synergistic_with": ["hyaluronic_acid", "ceramides", "peptides", "salicylic_acid", "retinoids"],
+    "avoid_with": [],
+    "application": "AM and PM",
+    "ph_dependent": false
+  },
+  "retinoids": {
+    "name": "Retinoids (Retinol, Tretinoin, Adapalene)",
+    "category": "Vitamin A Derivatives",
+    "description": "Gold standard for acne treatment and anti-aging. Increases cell turnover and regulates sebum.",
+    "benefits": [
+      "Treats acne",
+      "Reduces fine lines and wrinkles",
+      "Fades hyperpigmentation",
+      "Improves skin texture",
+      "Regulates sebum production",
+      "Prevents clogged pores"
+    ],
+    "addresses": ["acne", "aging", "hyperpigmentation", "texture"],
+    "concentration_range": "0.01% - 1% (varies by type)",
+    "suitable_for": ["most skin types with proper introduction"],
+    "cautions": [
+      "Start slow - 1-2x per week",
+      "Expect initial purging",
+      "May cause dryness and irritation",
+      "MUST use sunscreen",
+      "Avoid during pregnancy/breastfeeding"
+    ],
+    "contraindications": ["Pregnancy", "Breastfeeding", "Eczema flares"],
+    "synergistic_with": ["niacinamide", "hyaluronic_acid", "ceramides", "peptides"],
+    "avoid_with": ["vitamin_c (at same time)", "aha_bha (at same time)", "benzoyl_peroxide"],
+    "application": "PM only, start 1-2x per week",
+    "ph_dependent": false
+  },
+  "benzoyl_peroxide": {
+    "name": "Benzoyl Peroxide",
+    "category": "Antimicrobial",
+    "description": "Antibacterial agent that kills C. acnes bacteria and helps unclog pores.",
+    "benefits": [
+      "Kills acne-causing bacteria",
+      "Reduces inflammation",
+      "Unclogs pores",
+      "Fast-acting on active breakouts"
+    ],
+    "addresses": ["inflammatory acne", "bacterial acne"],
+    "concentration_range": "2.5% - 10%",
+    "suitable_for": ["oily", "acne-prone"],
+    "cautions": [
+      "Can be very drying",
+      "May bleach fabrics",
+      "Start with lower concentration",
+      "Can cause irritation"
+    ],
+    "contraindications": ["Very sensitive skin", "Eczema"],
+    "synergistic_with": ["niacinamide", "hyaluronic_acid"],
+    "avoid_with": ["retinoids (may reduce efficacy)", "vitamin_c"],
+    "application": "Start with short contact therapy",
+    "ph_dependent": false
+  },
+  "azelaic_acid": {
+    "name": "Azelaic Acid",
+    "category": "Dicarboxylic Acid",
+    "description": "Multi-functional acid that treats acne, rosacea, and hyperpigmentation.",
+    "benefits": [
+      "Antibacterial",
+      "Anti-inflammatory",
+      "Fades dark spots",
+      "Reduces redness",
+      "Treats rosacea",
+      "Gentle exfoliation"
+    ],
+    "addresses": ["acne", "rosacea", "hyperpigmentation", "sensitive skin"],
+    "concentration_range": "10% - 20%",
+    "suitable_for": ["all skin types", "sensitive skin", "rosacea"],
+    "cautions": ["May cause mild tingling initially"],
+    "contraindications": [],
+    "synergistic_with": ["niacinamide", "retinoids", "vitamin_c"],
+    "avoid_with": [],
+    "application": "AM and/or PM",
+    "ph_dependent": false
+  },
+  "hyaluronic_acid": {
+    "name": "Hyaluronic Acid",
+    "category": "Humectant",
+    "description": "Moisture-binding ingredient that holds up to 1000x its weight in water.",
+    "benefits": [
+      "Intense hydration",
+      "Plumps skin",
+      "Supports skin barrier",
+      "Non-comedogenic",
+      "Suitable for acne-prone skin"
+    ],
+    "addresses": ["dehydration", "fine lines", "all skin concerns"],
+    "concentration_range": "0.1% - 2%",
+    "suitable_for": ["all skin types"],
+    "cautions": ["Apply to damp skin", "Use in humid environments or seal with moisturizer"],
+    "contraindications": [],
+    "synergistic_with": ["niacinamide", "ceramides", "peptides", "all actives"],
+    "avoid_with": [],
+    "application": "AM and PM",
+    "ph_dependent": false
+  },
+  "vitamin_c": {
+    "name": "Vitamin C (L-Ascorbic Acid, derivatives)",
+    "category": "Antioxidant",
+    "description": "Potent antioxidant that brightens skin and protects against free radical damage.",
+    "benefits": [
+      "Fades hyperpigmentation",
+      "Brightens skin tone",
+      "Antioxidant protection",
+      "Boosts collagen production",
+      "Anti-aging"
+    ],
+    "addresses": ["hyperpigmentation", "dullness", "aging", "sun damage"],
+    "concentration_range": "10% - 20% (L-AA), varies for derivatives",
+    "suitable_for": ["most skin types"],
+    "cautions": [
+      "Can oxidize - store properly",
+      "May irritate sensitive skin",
+      "pH dependent for L-AA"
+    ],
+    "contraindications": [],
+    "synergistic_with": ["vitamin_e", "ferulic_acid", "niacinamide (contrary to myths)"],
+    "avoid_with": ["retinoids (at same time)", "benzoyl_peroxide"],
+    "application": "AM preferred (for antioxidant protection)",
+    "ph_dependent": true,
+    "optimal_ph": "2.0-3.5"
+  },
+  "ceramides": {
+    "name": "Ceramides",
+    "category": "Lipids",
+    "description": "Essential lipids that make up the skin barrier and prevent moisture loss.",
+    "benefits": [
+      "Repairs skin barrier",
+      "Prevents moisture loss",
+      "Reduces sensitivity",
+      "Protects against irritants",
+      "Supports healthy skin function"
+    ],
+    "addresses": ["sensitive skin", "compromised barrier", "dehydration", "irritation"],
+    "concentration_range": "Varies",
+    "suitable_for": ["all skin types", "essential for acne-prone skin using actives"],
+    "cautions": [],
+    "contraindications": [],
+    "synergistic_with": ["niacinamide", "hyaluronic_acid", "all actives"],
+    "avoid_with": [],
+    "application": "AM and PM",
+    "ph_dependent": false
+  },
+  "tea_tree_oil": {
+    "name": "Tea Tree Oil",
+    "category": "Essential Oil / Antimicrobial",
+    "description": "Natural antimicrobial with antibacterial and anti-inflammatory properties.",
+    "benefits": [
+      "Kills acne bacteria",
+      "Reduces inflammation",
+      "Natural alternative to benzoyl peroxide"
+    ],
+    "addresses": ["acne", "inflammation"],
+    "concentration_range": "5% - 10% (diluted)",
+    "suitable_for": ["oily", "acne-prone"],
+    "cautions": [
+      "Must be diluted",
+      "Patch test required",
+      "Can be irritating",
+      "Avoid if sensitive to essential oils"
+    ],
+    "contraindications": ["Sensitive skin", "Rosacea"],
+    "synergistic_with": ["niacinamide"],
+    "avoid_with": ["Other strong actives"],
+    "application": "PM, as spot treatment or diluted",
+    "ph_dependent": false
+  }
+}

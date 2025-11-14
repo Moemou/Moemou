@@ -1,0 +1,239 @@
+{
+  "product_categories": [
+    "cleanser",
+    "toner",
+    "serum",
+    "treatment",
+    "moisturizer",
+    "sunscreen",
+    "mask",
+    "exfoliant"
+  ],
+  "products": [
+    {
+      "category": "cleanser",
+      "type": "gel",
+      "suitable_for": ["oily", "combination", "acne-prone"],
+      "key_ingredients": ["salicylic_acid", "niacinamide"],
+      "description": "Salicylic acid gel cleanser for acne-prone skin",
+      "benefits": ["Unclogs pores", "Controls oil", "Prevents breakouts"],
+      "usage": "AM and PM, massage on damp skin, rinse thoroughly"
+    },
+    {
+      "category": "cleanser",
+      "type": "cream",
+      "suitable_for": ["dry", "sensitive", "normal"],
+      "key_ingredients": ["ceramides", "glycerin"],
+      "description": "Gentle, hydrating cream cleanser",
+      "benefits": ["Maintains barrier", "Gentle cleansing", "Hydrating"],
+      "usage": "AM and PM, massage on damp skin, rinse with lukewarm water"
+    },
+    {
+      "category": "treatment",
+      "type": "serum",
+      "suitable_for": ["all", "acne-prone"],
+      "key_ingredients": ["niacinamide"],
+      "description": "10% niacinamide serum",
+      "benefits": ["Reduces sebum", "Minimizes pores", "Fades marks", "Anti-inflammatory"],
+      "usage": "AM and PM, after cleansing, before moisturizer"
+    },
+    {
+      "category": "treatment",
+      "type": "gel",
+      "suitable_for": ["oily", "acne-prone"],
+      "key_ingredients": ["benzoyl_peroxide"],
+      "description": "2.5-5% benzoyl peroxide spot treatment",
+      "benefits": ["Kills acne bacteria", "Reduces inflammation", "Fast-acting"],
+      "usage": "PM, apply to active breakouts, start with short contact therapy"
+    },
+    {
+      "category": "treatment",
+      "type": "cream",
+      "suitable_for": ["acne-prone", "oily", "combination"],
+      "key_ingredients": ["retinoids"],
+      "description": "Retinoid treatment for acne and anti-aging",
+      "benefits": ["Treats acne", "Prevents breakouts", "Improves texture", "Anti-aging"],
+      "usage": "PM only, start 2x per week, apply pea-sized amount to dry skin"
+    },
+    {
+      "category": "treatment",
+      "type": "serum",
+      "suitable_for": ["all", "sensitive", "rosacea"],
+      "key_ingredients": ["azelaic_acid"],
+      "description": "10-20% azelaic acid treatment",
+      "benefits": ["Treats acne and rosacea", "Fades dark spots", "Anti-inflammatory", "Gentle"],
+      "usage": "AM and/or PM, after cleansing"
+    },
+    {
+      "category": "serum",
+      "type": "serum",
+      "suitable_for": ["all"],
+      "key_ingredients": ["hyaluronic_acid"],
+      "description": "Hyaluronic acid hydrating serum",
+      "benefits": ["Deep hydration", "Plumps skin", "Supports other treatments"],
+      "usage": "AM and PM, apply to damp skin, follow with moisturizer"
+    },
+    {
+      "category": "serum",
+      "type": "serum",
+      "suitable_for": ["all", "hyperpigmentation"],
+      "key_ingredients": ["vitamin_c"],
+      "description": "Vitamin C brightening serum",
+      "benefits": ["Brightens", "Fades dark spots", "Antioxidant protection", "Anti-aging"],
+      "usage": "AM preferably, apply after cleansing, before moisturizer"
+    },
+    {
+      "category": "moisturizer",
+      "type": "gel",
+      "suitable_for": ["oily", "combination", "acne-prone"],
+      "key_ingredients": ["niacinamide", "hyaluronic_acid"],
+      "description": "Oil-free gel moisturizer",
+      "benefits": ["Lightweight hydration", "Non-comedogenic", "Controls oil"],
+      "usage": "AM and PM, after serums"
+    },
+    {
+      "category": "moisturizer",
+      "type": "cream",
+      "suitable_for": ["dry", "sensitive", "normal"],
+      "key_ingredients": ["ceramides", "hyaluronic_acid"],
+      "description": "Rich barrier repair cream",
+      "benefits": ["Repairs barrier", "Intense hydration", "Reduces sensitivity"],
+      "usage": "AM and PM, last step before sunscreen (AM)"
+    },
+    {
+      "category": "sunscreen",
+      "type": "chemical",
+      "suitable_for": ["all"],
+      "spf": "30-50",
+      "description": "Lightweight chemical sunscreen",
+      "benefits": ["Broad spectrum protection", "No white cast", "Non-greasy"],
+      "usage": "AM, last step, reapply every 2 hours in sun"
+    },
+    {
+      "category": "sunscreen",
+      "type": "mineral",
+      "suitable_for": ["sensitive", "acne-prone"],
+      "spf": "30-50",
+      "description": "Mineral zinc oxide sunscreen",
+      "benefits": ["Physical protection", "Gentle", "Non-comedogenic"],
+      "usage": "AM, last step, reapply every 2 hours in sun"
+    },
+    {
+      "category": "exfoliant",
+      "type": "toner",
+      "suitable_for": ["oily", "combination", "acne-prone"],
+      "key_ingredients": ["salicylic_acid"],
+      "description": "2% salicylic acid exfoliating toner",
+      "benefits": ["Chemical exfoliation", "Unclogs pores", "Smooths texture"],
+      "usage": "PM, 2-3x per week, after cleansing"
+    },
+    {
+      "category": "mask",
+      "type": "clay",
+      "suitable_for": ["oily", "acne-prone"],
+      "key_ingredients": ["kaolin_clay", "sulfur"],
+      "description": "Purifying clay mask",
+      "benefits": ["Deep cleansing", "Oil absorption", "Pore refinement"],
+      "usage": "1-2x per week, apply to clean skin, rinse after 10-15 min"
+    }
+  ],
+  "routine_templates": {
+    "acne_mild": {
+      "morning": [
+        {
+          "step": 1,
+          "action": "Cleanse",
+          "product_type": "gentle gel cleanser"
+        },
+        {
+          "step": 2,
+          "action": "Treat",
+          "product_type": "niacinamide serum"
+        },
+        {
+          "step": 3,
+          "action": "Hydrate",
+          "product_type": "lightweight gel moisturizer"
+        },
+        {
+          "step": 4,
+          "action": "Protect",
+          "product_type": "SPF 30+ sunscreen"
+        }
+      ],
+      "evening": [
+        {
+          "step": 1,
+          "action": "Cleanse",
+          "product_type": "salicylic acid cleanser"
+        },
+        {
+          "step": 2,
+          "action": "Exfoliate",
+          "product_type": "salicylic acid toner (2-3x/week)"
+        },
+        {
+          "step": 3,
+          "action": "Treat",
+          "product_type": "niacinamide serum"
+        },
+        {
+          "step": 4,
+          "action": "Moisturize",
+          "product_type": "gel moisturizer"
+        }
+      ]
+    },
+    "acne_moderate": {
+      "morning": [
+        {
+          "step": 1,
+          "action": "Cleanse",
+          "product_type": "gentle cleanser"
+        },
+        {
+          "step": 2,
+          "action": "Treat",
+          "product_type": "niacinamide serum or azelaic acid"
+        },
+        {
+          "step": 3,
+          "action": "Hydrate",
+          "product_type": "lightweight moisturizer with ceramides"
+        },
+        {
+          "step": 4,
+          "action": "Protect",
+          "product_type": "SPF 30+ sunscreen"
+        }
+      ],
+      "evening": [
+        {
+          "step": 1,
+          "action": "Cleanse",
+          "product_type": "salicylic acid cleanser"
+        },
+        {
+          "step": 2,
+          "action": "Treat",
+          "product_type": "retinoid (start 2x/week, build up)"
+        },
+        {
+          "step": 3,
+          "action": "Hydrate",
+          "product_type": "hyaluronic acid serum"
+        },
+        {
+          "step": 4,
+          "action": "Moisturize",
+          "product_type": "barrier repair cream"
+        },
+        {
+          "step": 5,
+          "action": "Spot treat",
+          "product_type": "benzoyl peroxide on active breakouts"
+        }
+      ]
+    }
+  }
+}
